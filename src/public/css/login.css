@@ -1,0 +1,128 @@
+@media screen and (max-width: 1060px) {
+  #primary { width:67%; }
+  #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary { width:100%; }
+  #secondary { width:100%; margin:0; border:none; }
+}
+
+body{background-color: black !important;}
+
+.container_menu {
+	width: 90%;
+	margin: 0;
+
+}
+header {
+  background: #000000;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+  
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav {
+  float: left;
+  
+}
+
+nav ul {
+  margin: 0;
+  margin-left: 10px;
+  float: left;
+  padding: 10px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  float: left;
+  padding-top: 8px;
+
+  margin-right: 37px;
+  position: relative;
+}
+
+nav a {
+  float: left;
+
+  color: rgb(255, 255, 255);
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: rgb(253, 253, 253);
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 3px;
+  background-color: rgb(245, 244, 244);
+  position: absolute;
+  top: 32px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+
+.login_container {
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 540px;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px 4px rgb(255, 255, 255);
+    padding: 50px;
+    margin-top: 35px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+  }
+  
+  .login_container h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+ 
+  .form_texto{
+    width: 100.5%;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .btn_enviar{
+      border: 2px solid #1d1d1d ;
+      border-radius: 6px;
+      margin-top: 2px;
+      padding: 10px 17px;
+      width: 435px;
+      font-size: 20px;
+      color: #0f1216;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all .5s;
+      position: absolute;
+      margin-left: 5px;
+      background-color: Transparent !important;
+    
+  }

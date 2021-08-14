@@ -1,0 +1,99 @@
+
+
+.item2 { grid-area: menu; 
+
+}
+.item3 { grid-area: main; }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'main main main main main main'
+    'main main main main main main'
+    'main main main main main main';
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.grid-card a{
+  margin-bottom: 50px;
+}
+
+
+.grid-card h1{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 28px;
+  
+}
+
+.grid-card h2{
+  margin-top: 13px;
+  text-align: center;
+  font-size: 22px;
+  
+}
+
+
+.grid-card ul{
+  padding-left: 0px;
+  margin-bottom: 60px;
+  padding-top:  15px;
+  text-align: center;
+
+}
+
+.grid-card img {
+    width: 80%;
+    height: auto;
+}
+
+
+
+.grid-card li {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  width: 210px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: arial;
+  box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+}
+
+
+.grid-card li :hover  img{
+  transform:scale(1.07);
+  transition:all ease 0.3s;
+}
+
+
+
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.grid-container li{
+  list-style: none;
+  text-align: left;
+  margin-top: 12px;
+}
+
+.grid-ul{
+  border: 2px solid #000000;
+  padding:120px; 
+  margin-top: 15px;
+}
+
+.grid-container a{
+  color: #000000;
+}

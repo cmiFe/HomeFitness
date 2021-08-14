@@ -1,0 +1,359 @@
+
+
+body { background-color: white !important; }
+
+.imagem_banner_home{
+  background-image: url("../images/foto_home.jpg");
+
+  min-height: 45vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fundo_meio{
+  background-color: black;
+}
+
+.imagem_fundo_meio{
+  background-image: url("../images/mulher_barra.jpg");
+  min-height: 40vw;
+  padding-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.imagem_texto_1{
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.imagem_texto_1_imagem img{
+  
+  height: 40vw;
+  width: 60vw;
+  
+}
+
+.imagem_texto_1_texto{
+  float: left;
+  background: #ffffff;
+  height: 40vw;
+  width: 60vw;
+}
+
+.imagem_texto_1_texto h2{
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 3vw;
+
+}
+
+.imagem_texto_1_texto p{
+  margin-top: 10px;
+  margin-left: 12px;
+  font-size: 2vw;
+  margin-right: 12px;
+  text-align: justify;
+  float: left;
+}
+
+.imagem_texto_1_texto hr {
+  border: 3px solid rgb(181, 180, 180);
+  width: 50%;
+  float: left;
+  margin-top: px;
+  margin-left: 12px;
+  border-radius: 5px;
+}
+
+
+.imagem_texto_2{
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.imagem_texto_2_imagem img{
+  
+  height: 40vw;
+  width: 60vw;
+  
+}
+
+.texto_imagem_banner_home h1{
+  color: white;
+  font-size: 4vw;
+
+}
+
+.imagem_texto_2_texto{
+  float: left;
+  background: #ffffff;
+  height: 40vw;
+  width: 60vw;
+}
+
+
+.imagem_texto_2_texto h2{
+  margin-top: 10px;
+  margin-left: 22px;
+
+}
+
+.imagem_texto_2_texto p{
+  margin-top: 10px;
+  margin-left: 22px;
+  font-size: 2vw;
+  float: left;
+}
+
+.imagem_texto_2_texto hr {
+  border: 3px solid rgb(181, 180, 180);
+  width: 50%;
+  float: left;
+  margin-top: px;
+  margin-left: 22px;
+  border-radius: 5px;
+}
+
+.lista_card_precos{
+  display: flex;
+  position:relative;
+  margin-right: 50px;
+  justify-content: center;
+  padding: 2vw;
+  list-style-type: none;
+}
+
+
+.lista_card_precos li{
+  box-shadow: 4px 4px 4px 4px rgba(0.5,0.7,0.7,0.5);
+  display: inline-block;
+  list-style: none;
+  margin-left: 50px;
+  height: 31.9vw;
+  width: 40vw;
+  border-style: solid;
+}
+
+
+.card_precos button {
+  border: 0.1vw solid #babfc4;
+  border-radius: 0.3vw;
+  margin-top: 2px;
+  padding: 0.6vw 1.2vw;
+  width: 12vw;
+  font-size: 1.5vw;
+  color: #d8dadd;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all .5s;
+  position: absolute;
+  top:81%;
+  background-color: Transparent;
+  
+  
+}
+
+
+.card_precos button:hover{transform: scale(1.1); }
+
+
+.lista_card_precos_1_cima{
+  background-color: #76022a;
+  height: 14vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+
+.lista_card_precos_1_cima h2{
+  color: white;
+  font-size: 2.5vw;
+
+
+  
+}
+
+.lista_card_precos_1_cima h5{
+  color: white;
+  font-size: 1.5vw;
+}
+
+
+.lista_card_precos_1_baixo{
+  background-color: #181818 !important;
+  height: 17.5vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.lista_card_precos_1_baixo h2{
+  color: white;
+  font-size: 6vw;
+  margin-bottom: 8vw;
+  
+
+}
+
+.lista_card_precos_1_baixo h5{
+  color: white;
+  margin-bottom: 7vw;
+  font-size: 1.5vw;
+
+}
+
+
+.lista_card_infos{
+  display: flex;
+  position:relative;
+  margin-right: 60px;
+  justify-content: center;
+  padding: 1.5vw;
+  list-style-type: none;
+}
+
+.lista_card_infos li{
+  box-shadow: 2px 2px 4px 2px rgba(0.5, 0.5, 0.5, 0.5);
+  display: inline-block;
+  list-style: none;
+  
+  margin-left: 60px;
+  height: 15vw;
+  width: 30.5vw;
+}
+
+
+.card_infos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vw;
+  width: 100%;
+  box-shadow: 0 0 0 4px rgb(255, 255, 255)
+
+}
+
+.card_infos h2{
+  color: rgb(255, 255, 255);
+  font-size: 3.5vw;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+.fundo_imagem_final{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/academia.jpg");
+  min-height: 30vw;
+  padding-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+
+.fundo_imagem_final h1{
+  color:white;
+  font-size: 4vw;
+  margin-left: 22px;
+}
+
+.fundo_imagem_final h2{
+  color:white;
+  font-size: 3.5vw;
+  margin-left: 22px;
+  margin-top: 70px;
+  
+}
+
+.fundo_imagem_final hr {
+  border: 3px solid rgb(181, 180, 180);
+  width: 40%;
+  float: left;
+  margin-left: 22px;
+  border-radius: 5px;
+}
+
+.fundo_imagem_final_1{
+
+  height: 30vw;
+  width: 60vw;
+}
+
+.fundo_imagem_final_2{
+  margin-top: 25px;
+  height: 30vw;
+  width: 60vw;
+  margin-left: 150px;
+  overflow: auto;
+  
+
+}
+
+.btn_enviar{
+  border: 2px solid #babfc4 ;
+  border-radius: 6px;
+  margin-top: 2px;
+  padding: 10px 17px;
+  width: 8vw;
+  font-size: 1.5vw;
+  color: #d8dadd;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all .5s;
+  position: absolute;
+  margin-left: 5px;
+  background-color: Transparent !important;
+}
+
+.btn_enviar:hover{transform: scale(1.1); }
+
+.form_texto{
+  width: 84%;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form_texto_grande{
+  width: 69%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+}

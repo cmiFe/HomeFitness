@@ -1,0 +1,29 @@
+.mySlides {
+    height: 400px;
+    width: 100%;}
+
+.img_home {
+    height: 90%;
+    width: 100%;
+    object-fit: cover}
+
+.prev{
+  position: absolute;
+  top: 38%;
+  left:0;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  border: 2px  #000000; 
+  opacity:0.5
+}
+.next{
+  position: absolute;
+  top: 38%;
+  right:0;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  border: 2px  #000000; 
+  opacity:0.5
+}

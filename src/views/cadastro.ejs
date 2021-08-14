@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    
+
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <title>VIDOR</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <a href="/"> <img src="images/logo2.png" class="logo"> </a>
+        <a href="/carrinho"> <img src="images/carrinho.png" class="img_carrinho"> </a>
+        <a href="/login"> <img src="images/login2.png" class="img_login"> </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/produtos">Produtos</a></li>
+          <li><a href="/contato">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <div class="container login-container">
+            <div class="row">
+                <div class="col-md-6 login-form-1">
+                    <h3>Crie sua conta</h3>
+                    <form action="/cadastro" method="POST"> 
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="Nome *" name="name" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="email" class="form-control" placeholder="Email" name="email" value=<%= email %> />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id="password" class="form-control" placeholder="Senha *" name="password" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" id = "repassword" class="form-control" placeholder="Confirmar Senha *" name="repassword" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Cadastro" />
+                        </div>
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Contato</h3>
+                        <ul>
+                            <li><a href="/contatos">Fale Conosco</a></li>
+                            <li><a href="#">Seg-Sab: 9h-18h</a></li>
+                            <li><a href="#">Vitoria - ES</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Minha Conta</h3>
+                        <ul>
+                            <li><a href="#">Meus Dados</a></li>
+                            <li><a href="#">Carrinho</a></li>
+                            <li><a href="#">Pedidos e Devoluções</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Vidor La Casa Di Vestiti</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="icon ion-social-facebook"></i></a>
+                        <a href="#"><i class="icon ion-social-twitter"></i></a>
+                        <a href="#"><i class="icon ion-social-snapchat"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Vidor © 2021</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
